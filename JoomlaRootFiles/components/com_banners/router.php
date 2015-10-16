@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
 class BannersRouter extends JComponentRouterBase
 {
 	/**
-	 * Build the route for the com_banners component
+	 * Build the route for the com_banners componen
 	 *
 	 * @param   array  &$query  An array of URL arguments
 	 *
