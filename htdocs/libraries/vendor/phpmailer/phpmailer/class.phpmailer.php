@@ -2963,7 +2963,7 @@ class PHPMailer
     public function html2text($html, $advanced = false)
     {
         if ($advanced) {
-            require_once 'extras/class.html2text.php';
+         htdocs 'extras/class.html2text.php';
             $htmlconverter = new html2text($html);
             return $htmlconverter->get_text();
         }
